@@ -1,0 +1,42 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+
+# Jupyter
+
+.ipynb_checkpoints/
+notebooks/landmark_extraction.ipynb
+
+# Dataset
+
+data/videos/
+
+# Extracted landmarks
+
+data/landmarks/*.npy
+
+# Trained models
+
+models/*.keras
+models/*.h5
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# VS Code
+
+.vscode/
+
+# Logs
+
+*.log

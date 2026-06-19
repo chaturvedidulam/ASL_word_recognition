@@ -1,0 +1,9 @@
+{
+    "sequence_length": 64,
+    "feature_dim": 126,
+    "num_hands": 2,
+    "requested_samples": 10000,
+    "successful_samples": 10000,
+    "failed_samples": 0,
+    "zero_frame_ratio": 0.3238265625
+}
