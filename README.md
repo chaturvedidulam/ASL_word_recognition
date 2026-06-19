@@ -14,14 +14,6 @@ End-to-end American Sign Language (ASL) word recognition system built using the 
 
 ## Pipeline
 
-Video
-→ OpenCV Frame Extraction
-→ MediaPipe Hand Landmarks
-→ 126-Dimensional Features
-→ 64-Frame Sequence
-→ Transformer Encoder
-→ Gloss Prediction
-
 ![Pipeline](assets/pipeline.png)
 
 ## Dataset
@@ -56,6 +48,7 @@ Random baseline for 1,998 classes is approximately 0.05%, indicating the model l
 
 ## Project Structure
 
+```text
 ASL_word_recognition/
 │
 ├── README.md
@@ -91,7 +84,7 @@ ASL_word_recognition/
 │
 └── scripts/
     └── extract_10k.py
-
+```text 
 
 ## Installation
 
