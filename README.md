@@ -84,7 +84,7 @@ ASL_word_recognition/
 │
 └── scripts/
     └── extract_10k.py
-```text 
+``` 
 
 ## Installation
 
